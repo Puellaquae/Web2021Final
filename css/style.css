@@ -290,6 +290,10 @@ a {
     padding: 0;
 }
 
+.article li {
+    padding-left: 2rem;
+}
+
 .no-indent {
     text-indent: 0 !important;
 }
@@ -444,6 +448,10 @@ a {
 @media (max-width: 520px) {
     .card .preview {
         -webkit-line-clamp: 3;
+    }
+
+    .items {
+        flex-direction: column;
     }
 }
 

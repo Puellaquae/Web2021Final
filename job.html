@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>浙江工业大学</title>
+    <script src="lib/pangu.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header class="navbar">
+            <div class="nav-left">
+                <div class="brand">
+                    <a href="index.html">
+                        <img src="resource/img/brand.jpg" alt="浙江工业大学">
+                    </a>
+                </div>
+            </div>
+            <div class="nav-center">
+                <input type="checkbox" id="item-show" hidden>
+                <label for="item-show"></label>
+                <div class="items">
+                    <a href="news.html" class="nav-item">工大新闻</a>
+                    <a href="campus.html" class="nav-item">校园概况</a>
+                    <a href="educate.html" class="nav-item">教育教学</a>
+                    <a href="research.html" class="nav-item">科学研究</a>
+                    <a href="job.html" class="nav-item" now>招生就业</a>
+                </div>
+            </div>
+            <div class="nav-right">
+                <div class="input-btn">
+                    <input type="text">
+                    <button>
+                        🔍
+                    </button>
+                </div>
+            </div>
+        </header>
+        <section class="content">
+            <div class="article">
+                <p>详见：</p>
+                <li><a href="http://zs.zjut.edu.cn/">本科生招生</a></li>
+                <li><a href="http://www.yz.zjut.edu.cn/">研究生招生</a></li>
+                <li><a href="http://www.iec.zjut.edu.cn/">留学生招生</a></li>
+                <li><a href="http://www.cj.zjut.edu.cn/zs">继续教育招生</a></li>
+                <li><a href="http://job.zjut.edu.cn/">就业指导服务</a></li>
+            </div>
+        </section>
+        <footer class="footer">
+            <span class="info">浙江省杭州市下城区潮王路 18 号</span>
+            <span class="info">邮编 310014</span>
+            <span class="info">查台号 0571-88320114</span>
+        </footer>
+    </div>
+    <script>
+        pangu.spacingElementByTagName('p');
+    </script>
+</body>
+
+</html>
